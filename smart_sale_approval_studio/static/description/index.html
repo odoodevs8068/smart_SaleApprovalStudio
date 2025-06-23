@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Sale Order Approvals – Odoo 15</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body{font-family:'Roboto',sans-serif;}
+    h1,h2,h3,h4,h5,h6{font-family:'Montserrat',sans-serif;}
+  </style>
+</head>
+<body>
+<div class="container py-5">
+  <!-- Alert -->
+  <div class="alert alert-warning text-center mb-4" style="font-size:1.1rem;background:#fff3cd;border:1px solid #ffeeba;border-radius:10px;color:#856404;">
+    <strong>Important:</strong>This add‑on is built for <u>Odoo 15</u> Enterprise Editions.
+  </div>
+
+  <!-- Hero -->
+  <section class="text-center mb-5" style="background-color:#4f46e5;border-radius:20px;padding:80px 20px;">
+    <h1 class="text-white" style="font-weight:700;font-size:3rem;">Smart Sale Order Approvals</h1>
+    <p class="text-light" style="font-size:1.2rem;margin-top:20px;">Automatically put the right people in charge of approving each sale order—no complex security tweaks required.</p>
+  </section>
+
+  <!-- Navigation Cards -->
+  <section class="row text-center mb-5">
+    <div class="col-md-4 mb-4">
+      <a href="#overview" class="text-decoration-none">
+        <div class="card h-100 shadow-sm border-0" style="border-radius:15px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color:#4f46e5;">Overview</h5>
+            <p class="card-text text-muted">Why you need it</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 mb-4">
+      <a href="#benefits" class="text-decoration-none">
+        <div class="card h-100 shadow-sm border-0" style="border-radius:15px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color:#16a34a;">Benefits</h5>
+            <p class="card-text text-muted">What you gain</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 mb-4">
+      <a href="#how" class="text-decoration-none">
+        <div class="card h-100 shadow-sm border-0" style="border-radius:15px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color:#f59e0b;">How It Works</h5>
+            <p class="card-text text-muted">Simple steps</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Overview -->
+  <section id="overview" class="mb-5">
+    <h2 class="text-center mb-4" style="color:#222;">Overview</h2>
+    <p class="text-center text-muted" style="max-width:800px;margin:0 auto;">
+      Odoo Studio’s standard approval rules only recognise users that belong to a specific security group. That can be limiting—what if the sales order really needs sign‑off from the customer’s account owner or the shipping contact’s manager?<br><br>
+      <strong>Smart Sale Order Approvals</strong> widens the net by automatically adding relevant partner‑related users to the approver list. No spreadsheets, no manual tagging—just the right eyes on every deal.
+    </p>
+  </section>
+
+  <!-- Benefits -->
+  <section id="benefits" class="mb-5">
+    <h2 class="text-center mb-4" style="color:#222;">Key Benefits</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="text-muted">
+          <li>✅ Auto‑detects approvers linked to the customer, invoice & shipping contacts</li>
+          <li>✅ Works inside the familiar <em>Approve</em> flow—no new buttons or menus</li>
+          <li>✅ Real‑time eligibility: users see the <strong>Validate</strong> button only when they are allowed to</li>
+          <li>✅ Keeps your existing group‑based rules intact for other models</li>
+          <li>✅ Lightweight add‑on—zero impact on performance</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <ul class="text-muted">
+          <li>✅ Helps sales move faster while preserving control</li>
+          <li>✅ Reduces IT overhead—no security updates each time teams change</li>
+          <li>✅ Compatible with multi‑company setups and time‑zones</li>
+          <li>✅ Clean uninstall: removes itself without touching your data</li>
+          <li>✅ Full logging for audit & troubleshooting</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section id="how" class="mb-5">
+    <h2 class="text-center mb-4" style="color:#222;">How It Works</h2>
+    <div class="row text-muted">
+      <div class="col-md-4 mb-3">
+        <h5 style="color:#4f46e5;">1. Install & Activate</h5>
+        <p>Load the add‑on and refresh your browser. No extra configuration needed.</p>
+      </div>
+      <div class="col-md-4 mb-3">
+        <h5 style="color:#16a34a;">2. Keep Your Rules</h5>
+        <p>Your existing Studio approval rules stay untouched. The module quietly expands them for sale orders.</p>
+      </div>
+      <div class="col-md-4 mb-3">
+        <h5 style="color:#f59e0b;">3. Auto‑Assign Approvers</h5>
+        <p>Whenever a sale order enters approval, the system checks the linked contacts and seamlessly adds their account owners to the approver list.</p>
+      </div>
+    </div>
+    <p class="text-center small text-muted">Approvals keep flowing—even if sales teams reshuffle.</p>
+  </section>
+
+  <!-- Screenshots -->
+  <section id="screenshots" class="mb-5">
+  <h2 class="text-center mb-4" style="color:#222;">Screenshots</h2>
+  <div class="row g-4">
+    <div style="    font-size: xxx-large;">
+      <strong>1. Using Studio, I have set up an approval rule and created my own security group.</strong><br>
+      <img src="assets/screenshots/01.png" class="img-fluid mb-3" alt="Approval list view">
+
+      <strong>2. By default, only the Admin has access to approve the Sales Order.</strong><br>
+      <img src="assets/screenshots/02.png" class="img-fluid mb-3" alt="Approval dialog">
+
+      <strong>3. Before assigning a salesperson to the Customer, Invoice Address, or Delivery Address.</strong><br>
+      <img src="assets/screenshots/03.png" class="img-fluid mb-3" alt="Before salesperson configured"><br/>
+
+      <strong>4. Therefore, I was not able to approve the Sales Order for this customer.</strong><br>
+      <img src="assets/screenshots/04.png" class="img-fluid mb-3" alt="Approval failed"><br/>
+
+      <strong>5. After assigning a salesperson to the Customer, Invoice Address, or Delivery Address.</strong><br>
+      <img src="assets/screenshots/05.png" class="img-fluid mb-3" alt="Salesperson configured"><br/>
+
+      <strong>6. Now I am able to approve the Sales Order related to this customer.</strong><br>
+      <img src="assets/screenshots/06.png" class="img-fluid mb-3" alt="Approval success"><br/>
+      <img src="assets/screenshots/07.png" class="img-fluid mb-3" alt="Approval confirmed">
+
+      <strong>7. Users with access to the security group can still approve quotations for any customer, following the default Odoo Studio flow.</strong>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Services -->
+  <section class="text-center my-5">
+    <h2 style="color:#222;">Our Odoo Services</h2>
+    <div class="row mt-4">
+      <div class="col-md-3 mb-4">
+        <div class="card shadow-sm border-0 p-4" style="border-radius:15px;">
+          <img src="assets/icons/cogs.png" width="48" height="48" class="mx-auto mb-3" alt="Customization">
+          <h6>Customization</h6>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card shadow-sm border-0 p-4" style="border-radius:15px;">
+          <img src="assets/icons/wrench.png" width="48" height="48" class="mx-auto mb-3" alt="Implementation">
+          <h6>Implementation</h6>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card shadow-sm border-0 p-4" style="border-radius:15px;">
+          <img src="assets/icons/lifebuoy.png" width="48" height="48" class="mx-auto mb-3" alt="Support">
+          <h6>Support</h6>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card shadow-sm border-0 p-4" style="border-radius:15px;">
+          <img src="assets/icons/puzzle.png" width="48" height="48" class="mx-auto mb-3" alt="Integration">
+          <h6>Integration</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Related Products -->
+  <section class="text-center my-5">
+    <h2 style="color:#222;">Related Products</h2>
+    <div class="row mt-4">
+      <div class="col-md-3 mb-4">
+        <a href="https://apps.odoo.com/apps/modules/15.0/widget_one2many_search_select" class="text-decoration-none text-dark">
+          <div class="card border-0 shadow-sm" style="border-radius:10px;">
+            <img src="./assets/screenshots/br.png" class="card-img-top" alt="One2Many Search Select">
+            <div class="card-body">
+              <p class="card-title font-weight-bold mb-0">One2Many Search Select</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-3 mb-4">
+        <a href="https://apps.odoo.com/apps/modules/16.0/hotel_reservation_dashboard" class="text-decoration-none text-dark">
+          <div class="card border-0 shadow-sm" style="border-radius:10px;">
+            <img src="./assets/screenshots/hb.gif" class="card-img-top" alt="Hotel Dashboard">
+            <div class="card-body">
+              <p class="card-title font-weight-bold mb-0">Hotel Reservation Dashboard</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-3 mb-4">
+        <a href="https://apps.odoo.com/apps/modules/15.0/print_wizard" class="text-decoration-none text-dark">
+          <div class="card border-0 shadow-sm" style="border-radius:10px;">
+            <img src="./assets/screenshots/bdr.png" class="card-img-top" alt="Big Data Reports">
+            <div class="card-body">
+              <p class="card-title font-weight-bold mb-0">Big Data Reports</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-3 mb-4">
+        <a href="https://apps.odoo.com/apps/modules/17.0/message_gateway" class="text-decoration-none text-dark">
+          <div class="card border-0 shadow-sm" style="border-radius:10px;">
+            <img src="./assets/screenshots/mssge_gty.gif" class="card-img-top" alt="Message Gateway">
+            <div class="card-body">
+              <p class="card-title font-weight-bold mb-0">Message Gateway (Twilio, Nexmo…)</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="text-center my-5">
+    <h2 style="color:#222;">Need Help?</h2>
+    <div class="d-flex flex-column align-items-center mt-4">
+      <a href="mailto:odoodevs8068@gmail.com" class="btn btn-dark mb-2" style="width:250px;">
+        <i class="fa fa-envelope mr-2"></i>Email Us
+      </a>
+      <a href="https://wa.me/966542273082" class="btn btn-success mb-2" style="width:250px;">
+        <i class="fa fa-whatsapp mr-2"></i>WhatsApp (KSA) 966 54227 3082
+      </a>
+      <a href="https://wa.me/919360353170" class="btn btn-success" style="width:250px;">
+        <i class="fa fa-whatsapp mr-2"></i>WhatsApp (India) 91 9360353170
+      </a>
+    </div>
+  </section>
+</div>
+
+<!-- Optional JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
